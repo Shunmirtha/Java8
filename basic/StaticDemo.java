@@ -31,5 +31,6 @@ public class StaticDemo {
 		demoStaticMethod();
 		StaticDemo s=new StaticDemo();
 		s.demoNonStatic();
+		//StaticDemo s=new StaticDemo();
 	}
 }

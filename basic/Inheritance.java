@@ -2,7 +2,8 @@ package com.te.learn.basic;
 
 public class Inheritance {
 	public static void main(String[] args) {
-		B b=new B();
+	
+		B b=new B(10,20);
 		System.out.println(b.getA());
 		System.out.println(b.getB());
 		System.out.println(b.getC());

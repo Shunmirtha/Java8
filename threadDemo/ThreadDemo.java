@@ -5,9 +5,9 @@ public class ThreadDemo {
 		System.out.println("Main start...");
 		MyCharThread charThread=new MyCharThread();
 		MyIntThread2 intThread2=new MyIntThread2();
-		
-		charThread.start();
 		intThread2.start();
+		charThread.start();
+		
 		System.out.println("Main ends....");
 	}
 }

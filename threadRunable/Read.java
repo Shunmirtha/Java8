@@ -6,7 +6,7 @@ public class Read implements Runnable {
 	public void run() {
 		// TODO Auto-generated method stub
 		for(int i=0;i<story.s.length();i++) {
-			System.out.println("2");
+			System.out.println(story.s.charAt(i));
 		}
 		
 	}

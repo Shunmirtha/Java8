@@ -17,5 +17,6 @@ public class StaticAndNonStatic {
 	public static void main(String[] args) {
 		System.out.println("String args[] executed");
 		StaticAndNonStatic obj =new StaticAndNonStatic();
+		staticmethod();
 	}
 }

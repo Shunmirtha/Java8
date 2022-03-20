@@ -16,9 +16,10 @@ public class ConstructorDemo {
 		System.out.println("Constructor executed");
 	}
 	public ConstructorDemo(int aa){
+		
 		this();
 		this.a=aa;
-		System.out.println("ConstructorDemo(int aa) executed");
+		System.out.println("ConstructorDemo(int aa) executed "+ a);
 	}
 	public ConstructorDemo(int aa,int bb) {
 		this(aa);
@@ -28,7 +29,7 @@ public class ConstructorDemo {
 	public static void main(String[] args) {
 		System.out.println("String args[] executed");
 		//ConstructorDemo constructorDemo=new ConstructorDemo();
-		ConstructorDemo constructorDemo2=new ConstructorDemo(10,20);
+		ConstructorDemo constructorDemo2=new ConstructorDemo(11,20);
 		System.out.println(constructorDemo2.a);
 		System.out.println(constructorDemo2.b);
 	}
